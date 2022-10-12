@@ -1,0 +1,78 @@
+body{
+    background-color: gainsboro;
+    width: calc(100% - 20%);
+    margin: auto;
+}
+h1{
+    display: none;
+}
+a {
+    text-decoration: none;
+    color: rgb(92, 92, 92);
+}
+.header{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 10px;
+}
+.header img{
+    width: 300px;
+}
+.iconis{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+.header__sec{
+    grid-column: span 1;
+}
+.header__nav1{
+    display: flex;
+}
+.header__nav1 ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+.header__nav1 a{
+    padding-right: 10px;
+    border-right: 1px solid rgb(92, 92, 92);
+}
+.header__nav1 span{
+    color: rgb(92, 92, 92);
+    margin-left: 10px;
+}
+.header__nav2{
+    grid-column: span 2;
+    background-color: white;
+    display: flex;
+}
+.fa-bars{
+    font-size: 24px;
+}
+.header__nav2 button{
+    background-color: rgb(2, 189, 2);
+    color: white;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.header__nav2 ul{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+    margin: 10px;
+    gap: 6%;
+}
+.header__nav2 a{
+    font-weight: bold;
+    color: black;
+}
+.header__nav2 a:hover{
+    padding-bottom: 12px;
+    border-bottom: 4px solid rgb(2, 189, 2);
+}
