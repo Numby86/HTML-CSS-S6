@@ -2,6 +2,7 @@ body{
     background-color: gainsboro;
     width: calc(100% - 20%);
     margin: auto;
+    font-family: "Calibri";
 }
 h1{
     display: none;
@@ -17,10 +18,6 @@ a {
 }
 .header img{
     width: 300px;
-}
-.iconis{
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
 }
 .header__sec{
     grid-column: span 1;
@@ -75,4 +72,114 @@ a {
 .header__nav2 a:hover{
     padding-bottom: 12px;
     border-bottom: 4px solid rgb(2, 189, 2);
+}
+main.main__nav{
+    display: flex;
+    margin-top: 3%;
+}
+.main__nav_div{
+    display: flex;
+    margin: 10px;
+    gap: 3%;
+
+}
+.main__nav_div h2{
+    color: rgb(2, 189, 2);
+    font-weight: bold;
+}
+.main__nav_div p::before{
+    content: "> ";
+}
+.main__nav ul{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+    margin: 10px;
+    gap: 6%;
+}
+.main__nav a{
+    background-color: rgb(2, 189, 2);
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px;
+}
+.main__sec1{
+    margin-bottom: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1%;
+}
+.main__sec1 article{
+    display: grid;
+    grid-template-rows: 3fr 2fr 1fr;
+    max-width: 301px;
+    background-color: white;
+    color: rgb(92, 92, 92);
+    margin: 1%;
+}
+.main__sec1_arti{
+    grid-row: span 1;
+}
+.main__sec1_div1{
+    grid-row: span 1;
+    margin: 5px;
+}
+.main__sec1_div1 h2{
+    font-size: 20px;
+    padding-bottom: 4px;
+    font-weight: bold;
+}
+.main__sec1_div1 a:hover {
+    color: rgb(2, 189, 2);
+}
+.main__sec1_div2{
+    grid-row: span 1;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+.main__div_precios{
+    display: flex;
+    flex-direction: column;
+}
+.main__div_precios a{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(2, 189, 2);
+}
+.main__div_precios a:hover {
+    background-color: rgb(2, 189, 2);
+}
+.main__div_precios a::after{
+    content: "€";
+}
+.main__sec1_div2 button {
+    border: solid 2px rgb(2, 189, 2);
+    margin: 10px;
+    background-color: white;
+}
+.main__sec1_div2 a {
+    color: rgb(2, 189, 2);
+    font-weight: bold;
+}
+.main__sec1_div2 button:hover{
+    background-color: rgb(2, 189, 2);
+}
+.main__sec1_div2 a:hover{
+    color: white;
+}
+.main__sec2 {
+    margin-bottom: 5%;
+}
+.main__sec2_arti{
+    border: solid 0.3px rgb(92, 92, 92);
+    padding: 10px;
+    color: rgb(92, 92, 92);
+}
+.main__sec2_arti h2{
+    font-weight: bold;
+    padding-bottom: 1%;
+    font-size: 20px;
 }
