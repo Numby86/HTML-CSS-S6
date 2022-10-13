@@ -73,9 +73,8 @@ a {
     padding-bottom: 12px;
     border-bottom: 4px solid rgb(2, 189, 2);
 }
-main.main__nav{
-    display: flex;
-    margin-top: 3%;
+.main{
+    margin: 1%;
 }
 .main__nav_div{
     display: flex;
@@ -93,7 +92,7 @@ main.main__nav{
 .main__nav ul{
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     align-items: center;
     margin: 10px;
     gap: 6%;
@@ -182,4 +181,170 @@ main.main__nav{
     font-weight: bold;
     padding-bottom: 1%;
     font-size: 20px;
+}
+.footer{
+    padding: 3%;
+}
+.footer__nav{
+    padding: 5%;
+    border-top: solid 0.6px rgb(89, 89, 89);
+}
+.footer__nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+.footer__nav li{
+    border-left: solid 0.6px rgb(89, 89, 89);
+    padding-left: 3%;
+    display: flex;
+    flex-direction: column;
+}
+.footer__nav a:hover{
+    font-weight: bold;
+    font-size: 16px;
+}
+.borLi{
+    border-right: solid 0.6px rgb(89, 89, 89);
+    padding-right: 3%;
+}
+.foot-ic{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(2, 189, 2);
+}
+.footer__sec1{
+    display: flex;
+    gap: 3%;
+}
+.footer__sec1 h3{
+    font-size: 26px;
+}
+.footer__sec1 div{
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5px;
+}
+.footer__sec1 button{
+    padding: 5px;
+    width: 50%;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+.footer__sec1 a{
+    color: white;
+    font-weight: bold;
+}
+.footer__sec1 button:hover{
+    background-color: white;
+}
+.footer__sec1 a:hover{
+    color: black;
+}
+.footer__sec1_div1{
+    background-image: url(../images/footd1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30%;
+    color: white;
+}
+.footer__sec1_div2{
+    background-image: url(../images/footd2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30%;
+    color: white;
+}
+.footer__sec1_div3{
+    background-image: url(../images/footd3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30%;
+}
+.footer__sec1_div3 button{
+    border: 2px solid black;
+    color: black;
+}
+.footer__sec1_div3 a{
+    color: black;
+    font-weight: bold;
+}
+.footer__sec1_div3 button:hover{
+    background-color: black;
+}
+.footer__sec1_div3 a:hover{
+    color: white;
+}
+.logoNegro{
+    width: 45%;
+    max-height: 65%;
+}
+.footer__sec2{
+    display: flex;
+    justify-content: space-around;
+    margin: 2%;
+    color: ;
+}
+.footer__sec2 h4{
+    font-weight: bold;
+    color: rgb(2, 189, 2);
+    font-size: 18px;
+    padding-bottom: 3%;
+}
+.tarjeLogo{
+    width: 50px;
+}
+.logoTrip{
+    width: 150px;
+}
+.footer__sec3_div1{
+    color: rgb(92, 92, 92);
+    font-size: 18px;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5%;
+}
+.footer__sec3_div1 ul{
+    display: flex;
+    align-items: baseline;
+    gap: 40px;
+}
+.div_trip{
+    display: flex;
+    flex-direction: column;
+}
+.footer__sec3_div2{
+    display: flex;
+    justify-content: space-between;
+}
+.logo_footer img{
+    width: 300px;
+}
+.fa-brands{
+    font-size: 30px;
+    color: rgb(2, 189, 2);
+}
+.div_redes{
+    margin-right: 6%;
+}
+.div_redes h3{
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+.div_redes ul{
+    display: flex;
+    gap: 5%;
+}
+.div_redes li{
+    display: flex;
+    justify-content: space-around;
+}
+.footer__sec3{
+    background: linear-gradient( -45deg, white 0, white 40%);
 }
