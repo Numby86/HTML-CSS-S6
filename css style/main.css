@@ -39,6 +39,11 @@ a {
     margin-left: 10px;
 }
 .header__nav2{
+    width: 100%;
+    margin-left: -12.5%;
+    margin-right: -12.5%;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
     grid-column: span 2;
     background-color: white;
     display: flex;
@@ -173,8 +178,8 @@ a {
     margin-bottom: 5%;
 }
 .main__sec2_arti{
-    border: solid 0.3px rgb(92, 92, 92);
     padding: 10px;
+    background-color: white;
     color: rgb(92, 92, 92);
 }
 .main__sec2_arti h2{
@@ -288,7 +293,6 @@ a {
     display: flex;
     justify-content: space-around;
     margin: 2%;
-    color: ;
 }
 .footer__sec2 h4{
     font-weight: bold;
@@ -346,5 +350,9 @@ a {
     justify-content: space-around;
 }
 .footer__sec3{
-    background: linear-gradient( -45deg, white 0, white 40%);
+    background-color: white;
+    margin-left: -16.5%;
+    margin-right: -16.5%;
+    padding: 16.5%;
+    /*background: repeating-linear-gradient(-45deg, white 0, white 40%, white 0, white 60%)*/
 }
